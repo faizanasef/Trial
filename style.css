@@ -1,0 +1,44 @@
+bidy{
+    font-family:'Segoe UI', Tahoma Verdana, sans-serif;
+}
+nav {
+  height: 90px;
+  background-color: white;
+}
+nav a {
+  display: flex;
+  align-items: center;
+}
+#bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/img/3.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#par {
+  background-color: rgb(241, 240, 240);
+  height: 350px;
+}
+
+footer {
+  background-color: #0e181d;
+}
+#footer div img {
+  height: 50px;
+}
+footer h4 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px; 
+}
+footer a:hover {
+   font-size: 18px; 
+  border-bottom: 1px solid #2d4b5a;
+  text-shadow: 2px 2px 5px #51849e;
+}
